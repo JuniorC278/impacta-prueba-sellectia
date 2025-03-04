@@ -1,0 +1,744 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
+    />
+    <title>Impacta! - Home</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="scss/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link
+      href="https://unpkg.com/aos@2.3.1/dist/aos.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  </head>
+  <body>
+    <!-- Top information bar -->
+    <section class="top-alert">
+      <p class="alert-text">
+        MÁS PUBLICIDAD!
+        <strong>SUBSCRÍBETE A NUESTRA NEWSLETTER</strong>&nbsp;
+        <a href="#" style="text-transform: capitalize;">Clic aquí</a>
+      </p>
+    </section>
+
+    <!-- Header and main navigation -->
+    <header>
+      <nav class="main-nav">
+        <a href="#home">
+          <img
+            src="assets/img/logo/Recurso 13.svg"
+            alt="Logo Impacta"
+            width="170"
+          />
+        </a>
+        <ul class="nav-links">
+          <li><a href="#home">Nosotros</a></li>
+          <li><a href="#features">Servicios</a></li>
+          <li><a href="#works">Proyectos</a></li>
+          <li><a href="#contact-form">Contacto</a></li>
+        </ul>
+        <div class="social-icons">
+          <a href="#" target="_blank"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+          <a href="#" target="_blank"
+            ><i class="fa-brands fa-facebook"></i
+          ></a>
+        </div>
+        <button class="mobile-toggle">
+          <div class="toggle-line"></div>
+          <div class="toggle-line"></div>
+          <div class="toggle-line"></div>
+        </button>
+      </nav>
+    </header>
+
+    <!-- Main page content -->
+    <main>
+      <!-- Home slider -->
+      <section id="inicio" class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="assets/img/banner/edit1.webp" alt="Portada 1" />
+            <div class="slide-text-container">
+              <p class="slide-text">
+                A veces,<br />
+                somos<br />
+                gente<br />
+                normal
+              </p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img src="assets/img/banner/edit2.webp" alt="Portada 2" />
+            <div class="slide-text-container">
+              <p class="slide-text">
+                Creatividad<br />
+                sin límites<br />
+                para impulsar<br />
+                tu marca
+              </p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img src="assets/img/banner/edit3.webp" alt="Portada 3" />
+            <div class="slide-text-container">
+              <p class="slide-text">
+                Agilidad y eficiencia<br />
+                en cada<br />
+                proyecto
+              </p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img src="assets/img/banner/edit4.webp" alt="Portada 4" />
+            <div class="slide-text-container">
+              <p class="slide-text">
+                Equipo de<br />
+                expertos<br />
+                apasionados<br />
+                y dedicados
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+        <div class="autoplay-progress">
+          <svg viewBox="0 0 48 48">
+            <circle cx="24" cy="24" r="20"></circle>
+          </svg>
+          <span></span>
+        </div>
+      </section>
+
+      <a href="#features" class="scroll-down-link">
+        <div class="mouse-icon">
+            <div class="mouse-wheel"></div>
+        </div>
+        <div class="scroll-arrows">
+            <div class="scroll-arrow"></div>
+            <div class="scroll-arrow"></div>
+            <div class="scroll-arrow"></div>
+        </div>
+      </a>
+
+      <!-- Services section -->
+      <section id="features" class="features-section">
+        <div class="features-grid">
+          <!-- Service 1 -->
+          <article
+            class="feature-card"
+            data-aos="fade-up"
+            data-aos-mirror="true"
+            data-aos-once="true"
+          >
+            <div class="image-wrapper">
+              <img
+                src="assets/img/services/digital-brain.webp"
+                alt="Web Design"
+                class="feature-image"
+              />
+              <img
+                src="assets/img/services/head.svg"
+                class="icon-overlay"
+                alt="Brain"
+              />
+            </div>
+            <div class="number-badge">1</div>
+            <h3 class="feature-title">
+              Creatividad sin límites para impulsar tu marca
+            </h3>
+            <p class="feature-description">
+              Transformamos ideas en <strong>experiencias inolvidables</strong>,
+              creando campañas que capturan la esencia de tu marca y resuenan
+              profundamente con tu audiencia.
+            </p>
+          </article>
+
+          <!-- Service 2 -->
+          <article
+            class="feature-card"
+            data-aos="fade-up"
+            data-aos-mirror="true"
+            data-aos-once="true"
+          >
+            <div class="image-wrapper">
+              <img
+                src="assets/img/services/dartboard.webp"
+                alt="Web Design"
+                class="feature-image"
+              />
+              <img
+                src="assets/img/services/tozoide.webp"
+                class="icon-overlay"
+                alt="Pin"
+              />
+            </div>
+            <div class="number-badge">2</div>
+            <h3 class="feature-title">
+              Agilidad y eficiencia en cada proyecto
+            </h3>
+            <p class="feature-description">
+              <strong>Respuesta rápida y eficiente</strong> para un mercado en
+              constante cambio, adaptándonos a tus necesidades y superando tus
+              expectativas en cada entrega.
+            </p>
+          </article>
+
+          <!-- Service 3 -->
+          <article
+            class="feature-card"
+            data-aos="fade-up"
+            data-aos-mirror="true"
+            data-aos-once="true"
+          >
+            <div class="image-wrapper">
+              <img
+                src="assets/img/services/cyber-woman.webp"
+                alt="Web Design"
+                class="feature-image"
+              />
+              <img
+                src="assets/img/services/tachuela.svg"
+                class="icon-overlay"
+                alt="Pin"
+              />
+            </div>
+            <div class="number-badge">3</div>
+            <h3 class="feature-title">
+              Tecnología para resultados óptimos
+            </h3>
+            <p class="feature-description">
+              Innovación tecnológica para potenciar tus campañas publicitarias,
+              utilizando las <strong>herramientas más avanzadas</strong> para
+              alcanzar y superar tus objetivos.
+            </p>
+          </article>
+
+          <!-- Service 4 -->
+          <article
+            class="feature-card"
+            data-aos="fade-up"
+            data-aos-mirror="true"
+            data-aos-once="true"
+          >
+            <div class="image-wrapper">
+              <img
+                src="assets/img/services/hands.webp"
+                alt="Web Design"
+                class="feature-image"
+              />
+              <img
+                src="assets/img/services/beer.svg"
+                class="icon-overlay"
+                alt="Pin"
+              />
+            </div>
+            <div class="number-badge">4</div>
+            <h3 class="feature-title">
+              Equipo de expertos apasionados y dedicados
+            </h3>
+            <p class="feature-description">
+              Profesionales apasionados dedicados a impulsar tu marca, combinando
+              talento y experiencia para ofrecer
+              <strong
+                >resultados excepcionales y transformar tu visión en
+                realidad</strong
+              >.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <!-- Projects section -->
+      <section id="works" class="portfolio" 
+      data-aos="fade-up"
+          data-aos-mirror="true"
+          data-aos-once="true">
+        <img
+          src="assets/img/services/smoke-cocktail.webp"
+          class="background-image"
+          alt=""
+        />
+        <div class="portfolio-header">
+          <p
+          class="section-heading"
+          data-aos="fade-up"
+          data-aos-mirror="true"
+          data-aos-once="true"
+          >
+            Vendemos humo con mucha pasión
+          </p>
+        </div>
+      </section>
+
+      <!-- Clients section -->
+      <section class="clients-section">
+        <div class="clients-header">
+          <p class="section-heading">¿Nuestros clientes?</p>
+        </div>
+        <div class="clients-grid">
+          <article
+            class="client-card"
+            data-aos="zoom-in-up"
+            data-aos-once="true"
+          >
+            <div class="logo-container">
+              <img
+                src="assets/img/logo/Recurso 8.svg"
+                class="client-logo"
+                alt="Client 1"
+              />
+            </div>
+          </article>
+          <article
+            class="client-card"
+            data-aos="zoom-in-up"
+            data-aos-once="true"
+          >
+            <div class="logo-container">
+              <img
+                src="assets/img/logo/Recurso 7.svg"
+                class="client-logo"
+                alt="Client 2"
+              />
+            </div>
+          </article>
+          <article
+            class="client-card"
+            data-aos="zoom-in-up"
+            data-aos-once="true"
+          >
+            <div class="logo-container">
+              <img
+                src="assets/img/logo/Recurso 11.svg"
+                class="client-logo"
+                alt="Client 3"
+              />
+            </div>
+          </article>
+          <article
+            class="client-card"
+            data-aos="zoom-in-up"
+            data-aos-once="true"
+          >
+            <div class="logo-container">
+              <img
+                src="assets/img/logo/Recurso 9.svg"
+                class="client-logo"
+                alt="Client 4"
+              />
+            </div>
+          </article>
+          <article
+            class="client-card"
+            data-aos="zoom-in-up"
+            data-aos-once="true"
+          >
+            <div class="logo-container">
+              <img
+                src="assets/img/logo/Recurso 10.svg"
+                class="client-logo"
+                alt="Client 5"
+              />
+            </div>
+          </article>
+          <article
+            class="client-card"
+            data-aos="zoom-in-up"
+            data-aos-once="true"
+          >
+            <div class="logo-container">
+              <img
+                src="assets/img/logo/Recurso 12.svg"
+                class="client-logo"
+                alt="Client 6"
+              />
+            </div>
+          </article>
+          <article
+            class="client-card"
+            data-aos="zoom-in-up"
+            data-aos-once="true"
+          >
+            <div class="logo-container">
+              <img
+                src="assets/img/logo/Recurso 6.svg"
+                class="client-logo"
+                alt="Client 7"
+              />
+            </div>
+          </article>
+          <article
+            class="client-card"
+            data-aos="zoom-in-up"
+            data-aos-once="true"
+          >
+            <div class="logo-container">
+              <img
+                src="assets/img/logo/Recurso 3.svg"
+                class="client-logo"
+                alt="Client 7"
+              />
+            </div>
+          </article>
+          <article
+            class="client-card"
+            data-aos="zoom-in-up"
+            data-aos-once="true"
+          >
+            <div class="logo-container">
+              <img
+                src="assets/img/logo/Recurso 1.svg"
+                class="client-logo"
+                alt="Client 7"
+              />
+            </div>
+          </article>
+          <article
+            class="client-card"
+            data-aos="zoom-in-up"
+            data-aos-once="true"
+          >
+            <div class="logo-container">
+              <img
+                src="assets/img/logo/Recurso 5.svg"
+                class="client-logo"
+                alt="Client 7"
+              />
+            </div>
+          </article>
+          <article
+            class="client-card"
+            data-aos="zoom-in-up"
+            data-aos-once="true"
+          >
+            <div class="logo-container">
+              <img
+                src="assets/img/logo/Recurso 2.svg"
+                class="client-logo"
+                alt="Client 7"
+              />
+            </div>
+          </article>
+          <article
+            class="client-card"
+            data-aos="zoom-in-up"
+            data-aos-once="true"
+          >
+            <div class="logo-container">
+              <img
+                src="assets/img/logo/Recurso 4.svg"
+                class="client-logo"
+                alt="Client 7"
+              />
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- Contact form section -->
+      <section id="contact-form" class="contact-section">
+        <div 
+        class="contact-container"
+        data-aos="fade-up"
+        data-aos-mirror="true"
+        data-aos-once="true"
+        >
+          <form id="contactForm" class="contact-grid">
+            <!-- Left column -->
+            <div class="form-column form-column--left">
+              <p class="contact-heading">
+                <strong>ENVIANOS TU</strong> MENSAJE
+              </p>
+              <div
+                class="form-nested-grid form-nested-grid--left"
+              >
+                <div class="form-field form-field--nested">
+                  <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    class="form-input"
+                    placeholder="Nombre"
+                    required
+                  />
+                </div>
+                <div class="form-field form-field--nested">
+                  <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    class="form-input"
+                    placeholder="Email"
+                    required
+                  />
+                </div>
+                <div class="form-field form-field--nested">
+                  <input
+                    type="tel"
+                    id="phone"
+                    name="phone"
+                    class="form-input"
+                    placeholder="Teléfono"
+                    required
+                  />
+                </div>
+                <div class="form-field form-field--nested">
+                  <input
+                    type="text"
+                    id="planet"
+                    name="planet"
+                    class="form-input"
+                    placeholder="Planeta de Nacimiento"
+                    list="planets"
+                    required
+                  />
+                </div>
+                <div class="form-field form-field--full-nested">
+                  <textarea
+                    id="message"
+                    name="message"
+                    class="form-textarea"
+                    rows="5"
+                    placeholder="Mensaje"
+                    required
+                  ></textarea>
+                </div>
+                <div
+                  class="form-field form-field--full-nested form-field--centered"
+                >
+                  <p class="form-info">
+                    Sus datos serán tratados por IMPACTA para la atención de las
+                    consultas o solicitudes de información realizadas. Puede
+                    ejercer sus derechos conforme a lo dispuesto en la Política
+                    de Privacidad. <a href="#" class="form-link">Más información aquí</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- Right column -->
+            <div class="form-column form-column--right">
+              <div
+                class="form-nested-grid form-nested-grid--right"
+              >
+                <div
+                  class="form-field form-field--full-nested form-field--centered"
+                >
+                  <p class="form-label form-label--title-right">
+                    SELECCIONA SOLO <strong>UN RESULTADO</strong>
+                  </p>
+                </div>
+                <div
+                  class="form-field form-field--nested form-radio-item"
+                >
+                  <input
+                    type="radio"
+                    id="happy"
+                    name="result"
+                    value="happy"
+                    class="form-radio-input"
+                  />
+                  <label for="happy" class="form-radio-label"
+                    >Quiero ser feliz</label
+                  >
+                </div>
+                <div
+                  class="form-field form-field--nested form-radio-item"
+                >
+                  <input
+                    type="radio"
+                    id="rich"
+                    name="result"
+                    value="rich"
+                    class="form-radio-input"
+                  />
+                  <label for="rich" class="form-radio-label"
+                    >Quiero ser rico</label
+                  >
+                </div>
+                <div
+                  class="form-field form-field--nested form-radio-item"
+                >
+                  <input
+                    type="radio"
+                    id="plane"
+                    name="result"
+                    value="plane"
+                    class="form-radio-input"
+                  />
+                  <label for="plane" class="form-radio-label"
+                    >Quiero ser un avión</label
+                  >
+                </div>
+                <div
+                  class="form-field form-field--nested form-radio-item"
+                >
+                  <input
+                    type="radio"
+                    id="sleep"
+                    name="result"
+                    value="sleep"
+                    class="form-radio-input"
+                  />
+                  <label for="sleep" class="form-radio-label"
+                    >Quiero darmir todo el día</label
+                  >
+                </div>
+                <div
+                  class="form-field form-field--full-nested form-field--checkbox"
+                >
+                  <input
+                    type="checkbox"
+                    id="privacy"
+                    name="privacy"
+                    value="accept"
+                    class="form-checkbox-input"
+                    required
+                  />
+                  <label for="privacy" class="form-checkbox-label">
+                    He leído y acepto el
+                    <a href="#" class="form-link">aviso legal</a> y la
+                    <a href="#" class="form-link">politica de privacidad</a>
+                  </label>
+                </div>
+                <div
+                  class="form-field form-field--full-nested form-field--centered"
+                >
+                  <button type="submit" class="form-button">
+                    ENVIAR MENSAJE
+                  </button>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </section>
+
+      <!-- Bottom information bar -->
+      <section class="bottom-alert">
+        <p class="alert-text">
+          Más publicidad!
+          <strong>SUBSCRÍBETE A NUESTRA NEWSLETTER</strong>&nbsp;
+          <a href="#" style="text-transform: capitalize;">Clic aquí</a>
+        </p>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      <div class="footer-row-1">
+        <div class="footer-col-1">
+          <h3>Contacto y Preguntas Frecuentes</h3>
+          <ul>
+            <li><a href="#">+ (34) 666 666 666</a></li>
+            <li><a href="#contact-form">FORMULARIO DE CONTACTO</a></li>
+            <li><a href="#">PREGUNTAS FRECUENTES</a></li>
+            <li><a href="#">LIBRO DE RECLAMACIONES</a></li>
+            <li>
+              <a href="#">CONOCE NUESTRA MANERA DE TRABAJAR</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-col-2">
+          <h3>Nosotros</h3>
+          <ul>
+            <li><a href="#">CATEGORÍAS</a></li>
+            <li><a href="#">NOVEDADES</a></li>
+            <li><a href="#">OFERTAS</a></li>
+          </ul>
+        </div>
+        <div class="footer-col-3">
+          <h3>Proyectos</h3>
+          <ul>
+            <li><a href="#">CALIDADES</a></li>
+            <li><a href="#">REVISIONES</a></li>
+            <li><a href="#">RENOVACIÓN</a></li>
+            <li><a href="#">VENTAS</a></li>
+          </ul>
+        </div>
+        <div class="footer-col-4">
+          <h3>Contacto</h3>
+          <ul>
+            <li><a href="#contact-form">FORMULARIO DE CONTACTO</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-row-2">
+        <div class="footer-col-5">
+          <h3>Pago seguro</h3>
+          <div class="payment-logos">
+            <a href="#" target="_blank">
+              <img
+                src="assets/img/logo/Recurso 20.svg"
+                alt="Logo Mastercard"
+              />
+            </a>
+            <a href="#" target="_blank">
+              <img
+                src="assets/img/logo/Recurso 17.svg"
+                alt="Logo Visa"
+              />
+            </a>
+            <a href="#" target="_blank">
+              <img
+                src="assets/img/logo/Recurso 19.svg"
+                alt="Logo Amex"
+              />
+            </a>
+            <a href="#" target="_blank">
+              <img
+                src="assets/img/logo/Recurso 18.svg"
+                alt="Logo Paypal"
+              />
+            </a>
+          </div>
+        </div>
+        <div class="footer-col-6">
+          <h3>Servicios</h3>
+        </div>
+        <div class="footer-col-7">
+          <h3>Redes</h3>
+          <div class="social-icons">
+            <a href="#" target="_blank"
+              ><i class="fa-brands fa-instagram"></i
+            ></a>
+            <a href="#" target="_blank"
+              ><i class="fa-brands fa-facebook"></i
+            ></a>
+          </div>
+        </div>
+        <div class="footer-col-8">
+          <a href="#home">
+            <img
+              src="assets/img/logo/Recurso 14.svg"
+              alt="Logo Impacta"
+              width="170"
+            />
+          </a>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

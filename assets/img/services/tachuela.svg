@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<svg width="682.66669" height="682.66669" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" version="1.1" xml:space="preserve">
+ <defs id="defs1183">
+  <clipPath clipPathUnits="userSpaceOnUse" id="clipPath1193">
+   <path d="m0,512l512,0l0,-512l-512,0l0,512z" id="path1191"/>
+  </clipPath>
+ </defs>
+ <g class="layer">
+  <title>Layer 1</title>
+  <g id="g1185" transform="matrix(1.3333333,0,0,-1.3333333,0,682.66667)">
+   <g id="g1187">
+    <g clip-path="url(#clipPath1193)" id="g1189">
+     <g id="g1195" transform="translate(71.7124,108.0615)">
+      <path d="m0,0l95.58,94.33l32.03,-31.61l-152.95,-150.95l-38.87,-6.76l6.84,38.37l32.34,31.92" fill="none" id="path1197" stroke="#fcf9f9" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="15"/>
+     </g>
+     <g id="g1199" transform="translate(333.2246,89.1836)">
+      <path d="m0,0c-3.48,-11.59 -9.86,-22.52 -19.13,-31.67l-256.93,253.57c29.69,29.31 77.83,29.31 107.53,0.01l149.4,-147.45c12.53,-12.37 19.77,-27.97 21.72,-44.08" fill="none" id="path1201" stroke="#fcf9f9" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="15"/>
+     </g>
+     <g id="g1203" transform="translate(343.3125,438.1377)">
+      <path d="m0,0c-67.53,-98.24 -178.62,-127.05 -178.62,-127.05l149.4,-147.45c0,0 30.07,108.76 129.61,175.42l-100.39,99.08z" fill="none" id="path1205" stroke="#fcf9f9" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="15"/>
+     </g>
+     <g id="g1207" transform="translate(394.4165,448.4902)">
+      <path d="m0,0l110.08,-108.65c-17,-16.78 -44.58,-16.78 -61.59,0l-99.59,98.3c-17.01,16.78 -17.01,44 0,60.79l27.67,-27.31" fill="none" id="path1209" stroke="#fcf9f9" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="15"/>
+     </g>
+    </g>
+   </g>
+  </g>
+ </g>
+</svg>
