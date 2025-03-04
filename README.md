@@ -37,5 +37,5 @@ sellectia/
 git init
 git add .
 git commit -m "Initial commit"
-git remote add origin <URL_DEL_REPOSITORIO>
+git remote add origin https://github.com/JuniorC278/impacta-prueba-sellectia
 git push -u origin master
