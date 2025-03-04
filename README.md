@@ -24,10 +24,9 @@ El objetivo de esta prueba técnica es la maquetación de una landing page sin e
 ### Estructura de Directorios del Proyecto
 ```
 sellectia/
-├── .DS_Store
-├── .git/
 ├── assets/
 ├── index.html
+├── README.md
 ├── js/
 └── scss/
 ```
